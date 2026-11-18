@@ -1,0 +1,14 @@
+name: ratchet
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.18
+  - pip
+  - pip:
+      - cocotb==1.9.2
+      - pyslang==12.1.0
+      - tiktoken==0.14.0
+      - PyYAML==6.0.3
+      - jsonschema==4.26.0
+      - requests==2.34.2
+      - pyvsc==0.9.1.10086043874

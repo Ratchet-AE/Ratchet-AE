@@ -1,0 +1,10 @@
+{
+  "escalation": "cohort",
+  "diagnosis": "v2",
+  "contract": false,
+  "ledger": false,
+  "conjunct": false,
+  "history_h": 0,
+  "name": "r3_cohort_v2d",
+  "description": "Cohort with baseline diagnosis text without the reconciliation protocol; contract, ledger and conjunction disabled."
+}

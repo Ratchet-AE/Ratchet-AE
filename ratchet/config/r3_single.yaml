@@ -1,0 +1,9 @@
+{
+  "escalation": "single",
+  "diagnosis": "protocol",
+  "contract": true,
+  "ledger": true,
+  "conjunct": true,
+  "history_h": 0,
+  "name": "r3_single"
+}

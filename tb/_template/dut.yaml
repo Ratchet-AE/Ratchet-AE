@@ -1,0 +1,23 @@
+{
+  "adapter": "adapter.py",
+  "filelist": "path/to/filelist",
+  "top": "top_module",
+  "dut_module": "module_under_test",
+  "dut_root": "top_module.instance",
+  "seed_base": "top_module.instance",
+  "clock": "clock_signal",
+  "reset": "reset_signal",
+  "reset_active": 0,
+  "coverage_model": "path/to/coverage_model.py",
+  "sampling_points": "path/to/sampling_points.json",
+  "unreachable_bins": "path/to/unreachable_bins.tsv",
+  "card": "path/to/card.md",
+  "level_zero_schema": "path/to/level_zero_schema.json",
+  "candidate_schema": "path/to/candidate_schema.json",
+  "single_test_timeout": 180,
+  "stimulus": "describe stimulus format",
+  "key_state_registers": [],
+  "coverage_totals": {},
+  "defines": [],
+  "parameter_overrides": []
+}

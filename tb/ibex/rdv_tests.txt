@@ -1,0 +1,2 @@
+riscv_instr_base_test
+# Removed riscv_rand_instr_test: pinned pygen cannot execute its subprogram callstack for rv32imcb (missing self.callstack_gen).

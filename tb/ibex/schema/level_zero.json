@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "rationale": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "asm": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "rationale",
+    "asm"
+  ],
+  "additionalProperties": false
+}

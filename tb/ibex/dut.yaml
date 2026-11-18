@@ -1,0 +1,53 @@
+{
+  "adapter": "adapter.py",
+  "filelist": "tb/rtl.f.in",
+  "top": "ibex_simple_system",
+  "dut_module": "ibex_core",
+  "dut_root": "ibex_simple_system",
+  "seed_base": "ibex_simple_system.u_top.u_ibex_top.u_ibex_core",
+  "clock": "clk_sys",
+  "reset": "rst_sys_n",
+  "reset_active": 0,
+  "coverage_model": "cov/model.py",
+  "sampling_points": "cov/sampling_points.json",
+  "unreachable_bins": "unreachable_bins.tsv",
+  "card": "card.md",
+  "level_zero_schema": "schema/level_zero.json",
+  "candidate_schema": "schema/candidates.json",
+  "single_test_timeout": 180,
+  "stimulus": "assembly",
+  "key_state_registers": [],
+  "coverage_totals": {
+    "functional": 373,
+    "functional_reachable": 337,
+    "line": 1105,
+    "line_reachable": 1061
+  },
+  "defines": [
+    "VERILATOR=1",
+    "RVFI=1",
+    "BaseIsa=ibex_pkg::BaseIsaRV32IorCHERIoT",
+    "RV32M=ibex_pkg::RV32MSingleCycle",
+    "RV32B=ibex_pkg::RV32BFull",
+    "RV32ZC=ibex_pkg::RV32ZcaZcbZcmp",
+    "RegFile=ibex_pkg::RegFileFF",
+    "INSTR_CYCLE_DELAY=0",
+    "DISABLE_PRIM_CDC_RAND_DELAY"
+  ],
+  "parameter_overrides": [
+    "RV32E=0",
+    "ICache=1",
+    "ICacheScramble=1",
+    "ICacheECC=1",
+    "BranchTargetALU=1",
+    "WritebackStage=1",
+    "SecureIbex=1",
+    "BranchPredictor=0",
+    "DbgTriggerEn=1",
+    "PMPEnable=1",
+    "PMPGranularity=0",
+    "PMPNumRegions=16",
+    "MHPMCounterNum=10",
+    "MHPMCounterWidth=32"
+  ]
+}

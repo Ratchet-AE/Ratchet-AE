@@ -1,0 +1,22 @@
+{
+  "C0": 10180,
+  "tau": 4,
+  "N": 4,
+  "L_min": 40,
+  "L_max": 2000,
+  "K_stall": 3,
+  "D_max": 1500,
+  "R_max": 6,
+  "rho": 0.2,
+  "K": 4,
+  "K_shrink": 2,
+  "B": 12000,
+  "N_max": 6,
+  "h": 0,
+  "C_contract": 500,
+  "near_miss_gap": 1,
+  "ledger_repeat_threshold": 2,
+  "max_local_checkpoints_per_bin": 2,
+  "theta_share_top_fraction": 0.05,
+  "theta_share_min": 10
+}

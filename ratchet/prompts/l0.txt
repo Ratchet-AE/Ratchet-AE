@@ -1,0 +1,1 @@
+Write one test from reset, as long as practical (maximum 2000 instructions), covering as many uncovered target groups as possible. Return only the IBEX test schema; no conversation history or DUT slice.

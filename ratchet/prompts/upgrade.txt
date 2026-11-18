@@ -1,0 +1,1 @@
+Return the requested number of different suffix candidates. Each candidate states its primary_target. Stored prefix is replayed unchanged from reset; do not repeat it. Preserve all active window contracts, reach the next unpaid checkpoint, then explore other uncovered bins. Respect the provided suffix length bound.
